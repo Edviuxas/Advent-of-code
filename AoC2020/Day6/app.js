@@ -23,7 +23,6 @@ function firstPart() {
             for (let j = 0; j < line.length; j++) {
                 const letter = line[j];
                 set.add(letter);
-                // console.log(set.size());
             }
         } else {
             sum += set.size;
@@ -39,7 +38,6 @@ function secondPart() {
     let sum = 0;
     for (let i = 0; i < data.length; i++) {
         const line = data[i];
-        // console.log(line);
         if (line !== '') {
             count++;
             for (let j = 0; j < line.length; j++) {
